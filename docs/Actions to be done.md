@@ -1,0 +1,12 @@
+- [ ] contact bibliotheek
+- [x] github repo aanmaken
+- [ ] deploy website
+- [ ] tailwind repo initializeren
+- [x] domeinnaam kopen
+- [ ] mediakanelen aanschrijven
+- [ ] demo laptop voorzien met mogelijke thema's
+- [ ] demo laptop uittesten op testpersonen (Melanie, Florien)
+- [ ] registreren op endof10 https://endof10.org/
+- [ ] drive sync tool (one drive & google drive)
+- [ ] ideale windows theme zoeken
+- [ ] virus scanner zoeken
