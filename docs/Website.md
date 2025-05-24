@@ -31,3 +31,24 @@ https://www.tailawesome.com/?price=free&type=template
 
 # Logo
 ![[linux_at_kortrijk_logo.png]]
+
+## Getting started
+
+Template uses yarn
+
+installing yarn: https://yarnpkg.com/getting-started/install
+
+install dependencies
+
+```bash
+
+cd website
+yarn install
+
+# running the website
+yarn dev
+
+```
+
+More info
+[Template readme](../website/README.md)
