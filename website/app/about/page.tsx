@@ -3,7 +3,6 @@ import { MDXLayoutRenderer } from 'pliny/mdx-components'
 import AuthorLayout from '@/layouts/AuthorLayout'
 import { coreContent } from 'pliny/utils/contentlayer'
 import { genPageMetadata } from 'app/seo'
-import { Author } from 'next/dist/lib/metadata/types/metadata-types'
 
 export const metadata = genPageMetadata({ title: 'About' })
 
@@ -27,7 +26,7 @@ export default function Page() {
 	)
 }
 
-function sortAuthorsByName (a: Author, b: Author) {
+function sortAuthorsByName (a: Authors, b: Authors) {
 	if (a.name! < b.name!) {
 		return -1;
 	}
