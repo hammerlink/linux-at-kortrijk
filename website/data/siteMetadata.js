@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Linux @ Kortrijk',
   author: 'Hendrik Hamerlinck',
-  headerTitle: 'TailwindBlog',
+  headerTitle: 'Linux @ Kortrijk',
   description: 'Linux @ Kortrijk helpt je met Linux en Open Source software.',
   language: 'nl-be',
   theme: 'light', // system, dark or light
