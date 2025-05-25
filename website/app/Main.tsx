@@ -26,9 +26,18 @@ export default function Home({ posts }) {
             </p>
 
             <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-              Linux @ Kortrijk maakt deel uit van de <Link href="https://endof10.org" className="font-medium text-primary-500 hover:text-primary-600 dark:hover:text-primary-400" target="_blank" rel="noopener noreferrer">End of 10</Link>-campagne. Dat is een initiatief om mensen
-              te helpen vlot, veilig en bewust over te stappen naar Linux: een krachtig, betrouwbaar
-              en gratis besturingssysteem dat werkt op élke computer.
+              Linux @ Kortrijk maakt deel uit van de{' '}
+              <Link
+                href="https://endof10.org"
+                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 font-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                End of 10
+              </Link>
+              -campagne. Dat is een initiatief om mensen te helpen vlot, veilig en bewust over te
+              stappen naar Linux: een krachtig, betrouwbaar en gratis besturingssysteem dat werkt op
+              élke computer.
             </p>
 
             <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
