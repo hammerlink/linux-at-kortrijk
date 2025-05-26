@@ -15,6 +15,12 @@ export default function Home({ posts }) {
             <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
               Welkom bij Linux @ Kortrijk
             </h1>
+            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+              Wat je ook doet op je computer (surfen, werken, creëren of gewoon alles daartussen)
+              met Linux kan het minstens even goed. Betrouwbaar, gebruiksvriendelijk en helemaal
+              gratis. Wij zorgen voor begeleiding en installatiehulp, zodat jij vlot en zonder
+              zorgen de overstap maakt.
+            </p>
             <h2 className="text-xl leading-8 font-bold text-gray-900 dark:text-gray-100">
               Van Windows 10 naar een toekomst met Linux
             </h2>
