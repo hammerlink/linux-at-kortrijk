@@ -3,6 +3,7 @@ const siteMetadata = {
   title: 'Linux @ Kortrijk',
   author: 'Hendrik Hamerlinck',
   headerTitle: 'Linux @ Kortrijk',
+  description: 'Linux @ Kortrijk helpt je met Linux en Open Source software.',
   language: 'nl-be',
   locale: 'nl-BE',
   theme: 'light', // system, dark or light
