@@ -29,6 +29,9 @@ export default function Footer() {
             Tailwind Nextjs Theme
           </Link>
         </div>
+        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
+          Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.
+        </div>
       </div>
     </footer>
   )
