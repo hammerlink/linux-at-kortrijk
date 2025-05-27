@@ -30,7 +30,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className="mb-8 text-xs text-gray-500 dark:text-gray-400">
-          Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. 
+          Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.
           <div>Our group is independent and not affiliated with the Linux Foundation.</div>
         </div>
       </div>
