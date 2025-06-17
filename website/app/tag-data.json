@@ -1,6 +1,8 @@
 {
-  "endof10": 2,
+  "linux": 3,
+  "endof10": 3,
+  "windows": 1,
+  "beveiliging": 1,
   "back-up": 1,
-  "linux": 2,
   "eurostack": 1
 }
