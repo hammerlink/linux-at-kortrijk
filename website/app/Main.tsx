@@ -100,6 +100,13 @@ export default function Home({ posts }) {
               Linux is voor iedereen.
             </p>
 
+            <Link
+              href="/events"
+              className="bg-primary-600 hover:bg-primary-700 focus:ring-primary-500 inline-flex items-center rounded-md border border-transparent px-4 py-2 text-base font-medium text-white shadow-sm focus:ring-2 focus:ring-offset-2 focus:outline-none"
+            >
+              Bekijk onze sessies &rarr;
+            </Link>
+
             <div className="border-primary-500 border-l-4 pl-4 italic">
               <p className="text-lg font-medium text-gray-900 dark:text-gray-100">
                 Windows 10 stopt. Jij hoeft dat niet te doen.
