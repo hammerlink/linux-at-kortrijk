@@ -50,7 +50,5 @@ Bernard zijn we dan uitgekomen bij
 [Linux Mint](https://linuxmint.com/edition.php?id=319). Hieronder kan je een
 voorbeeld zien van hoe zo'n systeem eruit ziet.
 
-![Linux Mint, met de cinnamon desktop omgeving](/static/images/linux-mint.png)
-
 In een volgende sessie zullen we deze laptop omzetten naar Linux Mint. Meer
 hierover in een volgende post.
