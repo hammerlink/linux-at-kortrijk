@@ -34,15 +34,14 @@ export default function Exercises() {
       <div className="py-6">
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {EXERCISES.map((ex) => (
-            <li
-              key={ex.id}
-              className="rounded-2xl border p-4 transition hover:shadow-sm dark:border-gray-700"
-            >
+            <li key={ex.id} className="h-full">
               <a
                 href={`/exercises/${ex.nav || ex.id}`}
-                className="block text-lg font-semibold dark:text-gray-100"
+                className="flex h-full flex-col justify-center rounded-2xl border p-4 transition hover:shadow-sm dark:border-gray-700"
               >
-                {ex.id}. {ex.title}
+                <span className="text-lg font-semibold dark:text-gray-100">
+                  {ex.id}. {ex.title}
+                </span>
               </a>
             </li>
           ))}

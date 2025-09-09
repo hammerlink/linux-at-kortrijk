@@ -20,13 +20,6 @@ export async function generateMetadata(props: {
   if (!post) {
     return
   }
-  let imageList = [siteMetadata.socialBanner]
-  const ogImages = imageList.map((img) => {
-    return {
-      url: img && img.includes('http') ? img : siteMetadata.siteUrl + img,
-    }
-  })
-
   return {
     title: post.title,
     description: post.summary,
@@ -37,7 +30,7 @@ export async function generateMetadata(props: {
       locale: 'en_US',
       type: 'article',
       url: './',
-      images: ogImages,
+      images: [],
     },
   }
 }

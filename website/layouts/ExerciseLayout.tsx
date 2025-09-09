@@ -50,7 +50,7 @@ export default function ExerciseLayout({ content, next, prev, children }: Layout
                     {next && next.path && (
                       <div>
                         <h2 className="text-xs tracking-wide text-gray-500 uppercase dark:text-gray-400">
-                            Volgende Oefening
+                          Volgende Oefening
                         </h2>
                         <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
                           <Link href={`/${next.path}`}>{next.title}</Link>
