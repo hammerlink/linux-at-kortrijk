@@ -147,9 +147,39 @@ export const Authors = defineDocumentType(() => ({
   computedFields,
 }))
 
+export const Exercise = defineDocumentType(() => ({
+  name: 'Exercise',
+  filePathPattern: 'exercises/**/*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title: { type: 'string', required: true },
+    summary: { type: 'string' },
+    date: { type: 'date' },
+    draft: { type: 'boolean', default: false },
+    // add others if you need them later (e.g. tags, images, etc.)
+  },
+  computedFields: {
+    // reuse your global computed fields (readingTime, slug, path, filePath, toc)
+    ...computedFields,
+    // structured data tailored for “HowTo” style content
+    structuredData: {
+      type: 'json',
+      resolve: (doc) => ({
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: doc.title,
+        description: doc.summary,
+        date: doc.date,
+        totalTime: doc.readingTime?.text,
+        url: `${siteMetadata.siteUrl}/${doc._raw.flattenedPath}`,
+      }),
+    },
+  },
+}))
+
 export default makeSource({
   contentDirPath: 'data',
-  documentTypes: [Blog, Authors],
+  documentTypes: [Blog, Authors, Exercise],
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [
