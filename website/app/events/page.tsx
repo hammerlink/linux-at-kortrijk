@@ -18,8 +18,8 @@ export default function Events() {
       <div className="prose dark:prose-invert max-w-none pt-4">
         <ul>
           <li>📍 Locatie: Maakbib -1, Bibliotheek Kortrijk</li>
-          <li>🕑 Tijdstip: 14:00 – 16:00</li>
-          <li>📅 Data: 5 juli, 12 juli, 30 augustus, 13 september</li>
+          <li>🕑 Tijdstip: 13:30 – 15:30</li>
+          <li>📅 Data: 4 oktober, 15 november, 29 november</li>
         </ul>
       </div>
       <div className="py-6">
@@ -52,7 +52,7 @@ export default function Events() {
         </ul>
         <p>
           Meer info via de officiële pagina van de stad:{' '}
-          <a href="https://www.kortrijk.be/allemaaldigitaal/windows-10-ondersteuning-stopt-wat-nu">
+          <a href="https://www.kortrijk.be/formulieren/digitafel-xl-overstappen-naar-linux-mint">
             kortrijk.be
           </a>
           .
